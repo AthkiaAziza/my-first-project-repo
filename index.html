@@ -23,8 +23,91 @@
 </head>
 
 <body>
-    <header>
-
+    <header class="container mx-auto px-4 lg:px-24 ">
+        <!-- nav section -->
+        <nav class="mb-8">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Pages</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                    </div>
+                    <a class="text-[#131318] font-manrope font-thin lg:font-extrabold text-sm lg:text-3xl">Hockey<span
+                            class="text-[#FF4240] font-manrope font-thin lg:font-extrabold lg:text-3xl text-sm">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li class="text-[#FF4240] font-bold font-manrope text-base"><a>Home</a></li>
+                        <li class="text-[#424247] text-base font-manrope"><a>About</a></li>
+                        <li class="text-[#424247] text-base font-manrope"><a>Pages</a></li>
+                        <li class="text-[#424247] text-base font-manrope"><a>Blog</a></li>
+                        <li class="text-[#424247] text-base font-manrope"><a>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end gap-6">
+                    <img class="hidden lg:flex" src="Images/Frame (6).png" alt="">
+                    <a class=" btn btn-secondary bg-[#FF4240] text-[#FFF] rounded-lg">Get Ticket</a>
+                </div>
+            </div>
+        </nav>
+        <!-- Banner section -->
+        <!-- container div -->
+        <div>
+            <div class="carousel w-full h-[230px] lg:h-[650px]">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="Images/1.png" class="w-full" />
+                    <div
+                        class="absolute transform -bottom-3 lg:bottom-0 lg:left-10 left-24 space-x-2 lg:space-x-4 -translate-y-1/2">
+                        <a href="#slide4" class="btn btn-circle bg-black text-white">❮</a>
+                        <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="Images/award.jpg" class="w-full" />
+                    <div
+                        class="absolute transform -bottom-3 lg:bottom-0 lg:left-10 left-24 space-x-2 lg:space-x-4 -translate-y-1/2">
+                        <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a>
+                        <a href="#slide3" class="btn btn-circle bg-black text-white">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="Images/images.jpg" class="w-full" />
+                    <div
+                        class="absolute -bottom-3 lg:bottom-0 lg:left-10 left-24 space-x-2 lg:space-x-4 transform -translate-y-1/2">
+                        <a href="#slide2" class="btn btn-circle bg-black text-white">❮</a>
+                        <a href="#slide4" class="btn btn-circle bg-black text-white">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="Images/images (1).jpg" class="w-full" />
+                    <div
+                        class="absolute -bottom-3 lg:bottom-0 lg:left-10 left-24 space-x-2 lg:space-x-4 transform -translate-y-1/2">
+                        <a href="#slide3" class="btn btn-circle bg-black text-white">❮</a>
+                        <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
+                    </div>
+                </div>
+            </div>
+            <!-- black card -->
+            <div
+                class="bg-[#131318] rounded-2xl space-y-2 lg:space-y-4 p-5 lg:p-8 w-[290px] lg:w-[600px] lg:h-[200px] h-[110px] mx-auto lg:translate-x-80 lg:-translate-y-60">
+                <h3 class="text-white text-sm lg:text-2xl font-extrabold">Meet all the heroes from the field</h3>
+                <p class="text-[#ffffff99] text-xs lg:text-base font-medium">Dit amet consectetur. Condimentum dignissim
+                    adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+        </div>
     </header>
     <main>
         <!-- Professional Hockeys Club section -->
@@ -63,6 +146,60 @@
                     <div class="radial-progress text-blue-500" style="--value:80;" role="progressbar">80%</div>
                     <h3 class="text-[#131318] py-4 font-manrope text-xl font-semibold">Training Ground</h3>
                     <p class="text-[#131318] font-manrope">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+                </div>
+            </div>
+        </section>
+        <!-- Program sections -->
+        <section class="container mx-auto px-4 lg:px-24 mb-16">
+            <div class="border-dashed border-t-2 border-b-2 lg:border-r-2 lg:border-l-2 text-center">
+                <div>
+                    <h2 class="font-manrope text-[#131318] font-extrabold text-2xl py-6">Program Sections</h2>
+                </div>
+                <div>
+                    <p class="text-[#131318] text-base font-medium mb-8">Dit amet consectetur. Condimentum dignissim
+                        adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+                </div>
+            </div>
+        </section>
+        <!-- Program image section -->
+        <section class="container mx-auto px-4 lg:px-24 mb-16">
+            <!-- container div -->
+            <div class="grid gap-4 lg:grid-cols-2 grid-cols-1">
+                <!-- 1st image -->
+                <div
+                    class="bg-[linear-gradient(180deg,rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(./images/2.png)] h-[338px] bg-no-repeat bg-cover bg-center rounded-2xl space-y-4 lg:space-y-6 pt-14 lg:pt-20 pl-6 lg:pl-10">
+                    <h3 class="text-[#FFF] font-manrope font-extrabold text-2xl">Junior Program</h3>
+                    <p class="text-[#FFF] font-manrope text-base font-medium">Dolor sit amet consectetur. Ut urna diam
+                        quis sagittis. Elit elit <br>
+                        enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi nulla. Tortor
+                        congue
+                        sed et in.</p>
+                    <button class="btn border-none px-5 py-2 bg-[#FF4240] text-[#FFF] font-bold text-xl">Register
+                        Now!</button>
+                </div>
+                <!-- 2nd image -->
+                <div
+                    class="bg-[linear-gradient(180deg,rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(./images/3.png)] h-[338px] bg-no-repeat bg-cover bg-center rounded-2xl space-y-4 lg:space-y-6 pt-14 lg:pt-20 pl-6 lg:pl-10">
+                    <h3 class="text-[#FFF] font-manrope font-extrabold text-2xl">Junior Program</h3>
+                    <p class="text-[#FFF] font-manrope text-base font-medium">Dolor sit amet consectetur. Ut urna diam
+                        quis sagittis. Elit elit <br>
+                        enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi nulla. Tortor
+                        congue
+                        sed et in.</p>
+                    <button class="btn border-none px-5 py-2 bg-[#FF4240] text-[#FFF] font-bold text-xl">Register
+                        Now!</button>
+                </div>
+                <!-- 3rd image -->
+                <div
+                    class="lg:col-span-2 bg-[linear-gradient(180deg,rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(./images/4.png)] h-[338px] lg:h-[460px] bg-no-repeat bg-cover bg-center rounded-2xl space-y-4 lg:space-y-6 pt-14 lg:pt-20 pl-6 lg:pl-10">
+                    <h3 class="text-[#FFF] font-manrope font-extrabold text-2xl">Junior Program</h3>
+                    <p class="text-[#FFF] font-manrope text-base font-medium">Dolor sit amet consectetur. Ut urna diam
+                        quis sagittis. Elit elit <br>
+                        enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi nulla. Tortor
+                        congue
+                        sed et in.</p>
+                    <button class="btn border-none px-5 py-2 bg-[#FF4240] text-[#FFF] font-bold text-xl">Register
+                        Now!</button>
                 </div>
             </div>
         </section>
@@ -106,7 +243,8 @@
                             </div>
                         </div>
                         <h4 class="text[#131318] font-extrabold font-manrope text-xl mb-2">World Cup Flags Football</h4>
-                        <p class="text-[#131318] font-manrope font-medium text-base mb-2">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <p class="text-[#131318] font-manrope font-medium text-base mb-2">Dolor sit amet consectetur. Ut
+                            urna diam quis sagittis. </p>
                         <!-- price div -->
                         <div class="flex flex-col lg:flex-row gap-3">
                             <p class="text-[#FF4240] font-medium font-manrope text-base">Price - $22.00</p>
@@ -141,7 +279,8 @@
                             </div>
                         </div>
                         <h4 class="text[#131318] font-extrabold font-manrope text-xl mb-2">World Cup Flags Football</h4>
-                        <p class="text-[#131318] font-manrope font-medium text-base mb-2">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <p class="text-[#131318] font-manrope font-medium text-base mb-2">Dolor sit amet consectetur. Ut
+                            urna diam quis sagittis. </p>
                         <!-- price div -->
                         <div class="flex flex-col lg:flex-row gap-3">
                             <p class="text-[#FF4240] font-medium font-manrope text-base">Price - $22.00</p>
@@ -176,7 +315,8 @@
                             </div>
                         </div>
                         <h4 class="text[#131318] font-extrabold font-manrope text-xl mb-2">Cap For Hockeys</h4>
-                        <p class="text-[#131318] font-manrope font-medium text-base mb-2">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <p class="text-[#131318] font-manrope font-medium text-base mb-2">Dolor sit amet consectetur. Ut
+                            urna diam quis sagittis. </p>
                         <!-- price div -->
                         <div class="flex flex-col lg:flex-row gap-3">
                             <p class="text-[#FF4240] font-medium font-manrope text-base">Price - $22.00</p>
@@ -211,7 +351,8 @@
                             </div>
                         </div>
                         <h4 class="text[#131318] font-extrabold font-manrope text-xl mb-2">World Cup Flags Football</h4>
-                        <p class="text-[#131318] font-manrope font-medium text-base mb-2">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <p class="text-[#131318] font-manrope font-medium text-base mb-2">Dolor sit amet consectetur. Ut
+                            urna diam quis sagittis. </p>
                         <!-- price div -->
                         <div class="flex flex-col lg:flex-row gap-3">
                             <p class="text-[#FF4240] font-medium font-manrope text-base">Price - $22.00</p>
@@ -246,7 +387,8 @@
                             </div>
                         </div>
                         <h4 class="text[#131318] font-extrabold font-manrope text-xl mb-2">World Cup Flags Football</h4>
-                        <p class="text-[#131318] font-manrope font-medium text-base mb-2">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <p class="text-[#131318] font-manrope font-medium text-base mb-2">Dolor sit amet consectetur. Ut
+                            urna diam quis sagittis. </p>
                         <!-- price div -->
                         <div class="flex flex-col lg:flex-row gap-3">
                             <p class="text-[#FF4240] font-medium font-manrope text-base">Price - $22.00</p>
@@ -281,7 +423,8 @@
                             </div>
                         </div>
                         <h4 class="text[#131318] font-extrabold font-manrope text-xl mb-2">World Cup Flags Football</h4>
-                        <p class="text-[#131318] font-manrope font-medium text-base mb-2">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <p class="text-[#131318] font-manrope font-medium text-base mb-2">Dolor sit amet consectetur. Ut
+                            urna diam quis sagittis. </p>
                         <!-- price div -->
                         <div class="flex flex-col lg:flex-row gap-3">
                             <p class="text-[#FF4240] font-medium font-manrope text-base">Price - $22.00</p>
@@ -386,7 +529,7 @@
             </div>
         </section>
         <!-- get in touch section -->
-        <section class="container mx-auto px-4 lg:px-24">
+        <section class="container mx-auto px-4 lg:px-24 mb-16">
             <div class="border-dashed border-t-2 border-b-2 lg:border-r-2 lg:border-l-2 text-center">
                 <div>
                     <h2 class="font-manrope text-[#131318] font-extrabold text-2xl py-6">Get In Touch</h2>
@@ -397,8 +540,84 @@
                 </div>
             </div>
         </section>
+        <!-- touch section form -->
+        <section class="container mx-auto px-4 lg:px-24">
+            <!-- container div -->
+            <div class="flex flex-col lg:flex-row gap-7">
+                <!-- image div -->
+                <div class="lg:p-10 p-8 space-y-5 border-solid border-2 border-[#13131833] rounded-2xl">
+                    <!-- 1st card -->
+                    <div class="bg-[#bcd16d1a] rounded-2xl px-5 lg:px-9 py-11 space-y-5">
+                        <img src="Images/Group 1171275317.png" alt="">
+                        <p class="text-[#131318]">Phone Number</p>
+                        <h5 class="text-[#131318] text-base lg:text-lg font-extrabold">(+62) 123-321-543</h5>
+                    </div>
+                    <!-- 2nd card -->
+                    <div class="bg-[#bcd16d1a] rounded-2xl px-5 lg:px-9 py-11 space-y-5">
+                        <img src="Images/Group 1171275318.png" alt="">
+                        <p class="text-[#131318]">Email</p>
+                        <h5 class="text-[#131318] text-base lg:text-lg font-extrabold">hockeys@support.com</h5>
+                    </div>
+                    <!-- 3rd card -->
+                    <div class="bg-[#bcd16d1a] rounded-2xl px-5 lg:px-9 py-11 space-y-5">
+                        <img src="Images/Group 1171275321.png" alt="">
+                        <p class="text-[#131318]">Location</p>
+                        <h5 class="text-[#131318] text-base lg:text-lg font-extrabold">152/1 Mohakhali Wireless Gate</h5>
+                    </div>
+                </div>
+                <!-- Form container -->
+                <div class="grid flex-1 grid-cols-1 lg:grid-cols-2 gap-2">
+                    <!-- 1st form -->
+                    <div class="col-span-2 md:col-span-1 lg:mt-5">
+                        <label class="form-control">
+                            <div class="label">
+                              <span class="label-text text-[#131318] text-xl font-bold">Your Name</span>
+                            </div>
+                            <input type="text" placeholder="Enter your full name" class="input input-bordered rounded-xl bg-[#13131808] border-none text-[#131318] lg:h-[70px]" />
+                          </label>
+                    </div>
+                    <!-- 2nd form -->
+                    <div class="col-span-2 md:col-span-1 lg:mt-5">
+                        <label class="form-control">
+                            <div class="label">
+                              <span class="label-text text-[#131318] text-xl font-bold">Your Emai</span>
+                            </div>
+                            <input type="text" placeholder="Enter your email" class="input rounded-xl bg-[#13131808] border-none input-bordered text-[#131318] lg:h-[70px]" />
+                          </label>
+                    </div>
+                    <!-- 3rd form -->
+                    <div class="col-span-2 md:col-span-1 lg:mt-5">
+                        <label class="form-control">
+                            <div class="label">
+                              <span class="label-text text-[#131318] text-xl font-bold">Subject</span>
+                            </div>
+                            <input type="text" placeholder="Enter your subject" class="input input-bordered rounded-xl bg-[#13131808] border-none text-[#131318] lg:h-[70px]" />
+                          </label>
+                    </div>
+                    <!-- 4th form -->
+                    <div class="col-span-2 md:col-span-1 lg:mt-5">
+                        <label class="form-control">
+                            <div class="label">
+                              <span class="label-text text-[#131318] text-xl font-bold">Phone Number</span>
+                            </div>
+                            <input type="text" placeholder="Enter your phone number" class="input input-bordered rounded-xl bg-[#13131808] border-none text-[#131318] lg:h-[70px]" />
+                          </label>
+                    </div>
+                    <!-- text area div -->
+                    <div class="col-span-2 lg:mt-5">
+                        <label class="form-control">
+                            <div class="label">
+                              <span class="label-text text-[#131318] text-xl font-bold">Message</span>
+                              </div>
+                            <textarea class="textarea rounded-xl bg-[#13131808] border-none textarea-bordered h-[300px] lg:h-[370px] text-[#131318]" placeholder="Write Your Message"></textarea>
+                            </label>
+                          <button class="btn btn-outline mt-8 lg:h-[70px] w-[290px] lg:w-[860px] bg-[#FF4240] border-none text-white font-bold text-xl">Send Message</button>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- social section -->
-        <section class="container mx-auto px-4 lg:px-24 drop-shadow-2xl">
+        <section class="container mx-auto px-4 lg:px-24 bg-[#13131808] mt-16">
             <div class="text-center text-[#131318] font-manrope font-extrabold text-2xl py-6">
                 <p>Social Media</p>
             </div>
